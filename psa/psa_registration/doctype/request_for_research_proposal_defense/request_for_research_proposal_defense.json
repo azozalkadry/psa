@@ -8,8 +8,8 @@
  "field_order": [
   "naming_series",
   "student",
-  "column_break_noae",
   "program_enrollment",
+  "column_break_noae",
   "supervisor",
   "section_break_zaej",
   "research_title_english",
@@ -48,6 +48,7 @@
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Naming series",
    "options": "REQ-."
   },
@@ -73,7 +74,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-05-05 18:35:12.893566",
+ "modified": "2024-07-13 00:17:12.782293",
  "modified_by": "Administrator",
  "module": "PSA Registration",
  "name": "Request for Research Proposal Defense",

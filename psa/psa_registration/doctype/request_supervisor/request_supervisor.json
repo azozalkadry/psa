@@ -7,14 +7,9 @@
  "engine": "InnoDB",
  "field_order": [
   "naming_series",
-<<<<<<<< HEAD:psa/psa_registration/doctype/request_main_supervisor/request_main_supervisor.json
-  "student_name",
-  "column_break_zmhv",
-========
   "type",
   "column_break_zmhv",
   "student_name",
->>>>>>>> 705536fd482b0e95405c5df7da733093ceef1de0:psa/psa_registration/doctype/request_supervisor/request_supervisor.json
   "program_enrollment",
   "section_break_minj",
   "research_title_english",
@@ -69,13 +64,8 @@
   {
    "fetch_from": "program_enrollment.student_name",
    "fieldname": "student_name",
-<<<<<<<< HEAD:psa/psa_registration/doctype/request_main_supervisor/request_main_supervisor.json
-   "fieldtype": "Data",
-   "label": "Student Name",
-========
    "fieldtype": "Link",
    "label": "Student",
->>>>>>>> 705536fd482b0e95405c5df7da733093ceef1de0:psa/psa_registration/doctype/request_supervisor/request_supervisor.json
    "options": "Student"
   },
   {
@@ -85,30 +75,20 @@
   {
    "fieldname": "column_break_wifv",
    "fieldtype": "Column Break"
-<<<<<<<< HEAD:psa/psa_registration/doctype/request_main_supervisor/request_main_supervisor.json
-========
   },
   {
    "fieldname": "type",
    "fieldtype": "Select",
    "label": "Type",
    "options": "\nMain Supervisor\nCo-Supervisor"
->>>>>>>> 705536fd482b0e95405c5df7da733093ceef1de0:psa/psa_registration/doctype/request_supervisor/request_supervisor.json
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
-<<<<<<<< HEAD:psa/psa_registration/doctype/request_main_supervisor/request_main_supervisor.json
- "modified": "2024-05-08 11:10:25.990104",
- "modified_by": "Administrator",
- "module": "PSA Registration",
- "name": "Request Main Supervisor",
-========
  "modified": "2024-05-11 02:41:24.343268",
  "modified_by": "Administrator",
  "module": "PSA Registration",
  "name": "Request Supervisor",
->>>>>>>> 705536fd482b0e95405c5df7da733093ceef1de0:psa/psa_registration/doctype/request_supervisor/request_supervisor.json
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
